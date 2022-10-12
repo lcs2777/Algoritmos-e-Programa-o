@@ -1,4 +1,4 @@
-# Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o valor da compra for menor que R$ 20,00; caso contrário, o lucro será de 30%.
+# https://www.beecrowd.com.br/judge/pt/custom-problems/view/1714
 produto = float(input())
 if produto < 20: 
     print ('Valor de venda: R$%.2f' % (produto+(produto * 0.45)))

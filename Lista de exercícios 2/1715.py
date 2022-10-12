@@ -1,8 +1,4 @@
-# Uma loja fornece 13% de desconto para funcionários e 7% de desconto para clientes premium.
-
-# Faça um programa que leia o valor total da compra efetuada e um código que identifique se o comprador é um cliente comum (1), funcionário (2) ou premium (3). Calcule e mostre o valor total a ser pago por uma pessoa.
-
-# Dica: utilize a estrutura elif.
+# https://www.beecrowd.com.br/judge/pt/custom-problems/view/1715
 
 cliente = int(input())
 
