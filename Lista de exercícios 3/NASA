@@ -1,0 +1,8 @@
+IniContagem = int(input())
+FinContagem = int(input())
+
+while FinContagem <= IniContagem:
+   
+    print (IniContagem)
+    IniContagem = IniContagem - 1
+print ("Fogo!")

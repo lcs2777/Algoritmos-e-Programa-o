@@ -1,0 +1,23 @@
+# receber o código referente ao tipo do cliente:
+# (1)comum
+# (2)funcionário
+# (3) premium
+# armazenar em variavel inteira
+cliente = int(input())
+
+#informar o total da compra
+total_da_compra = float(input())
+
+# se digitado = 1, sem desconto
+# se digitado = 2, 13% de desconto
+# se digitado = 3, 7% de desconto
+# se digitado != dos acima, ERRO
+
+if cliente == 1:
+    print ('valor total a ser pago: R$ %.2f' % total_da_compra)
+elif cliente == 2:
+    print ('valor total a ser pago: R$ %.2f' % (total_da_compra - (total_da_compra * 0.13)))
+elif cliente == 3:
+     print ('valor total a ser pago: R$ %.2f' % (total_da_compra - (total_da_compra * 0.07)))
+else:
+     print ('OPÇÃO INVÁLIDA!')
