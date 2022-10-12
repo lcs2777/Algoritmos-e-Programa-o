@@ -1,17 +1,14 @@
-# receber o código referente ao tipo do cliente:
-# (1)comum
-# (2)funcionário
-# (3) premium
-# armazenar em variavel inteira
+# Uma loja fornece 13% de desconto para funcionários e 7% de desconto para clientes premium.
+
+# Faça um programa que leia o valor total da compra efetuada e um código que identifique se o comprador é um cliente comum (1), funcionário (2) ou premium (3). Calcule e mostre o valor total a ser pago por uma pessoa.
+
+# Dica: utilize a estrutura elif.
+
 cliente = int(input())
 
-#informar o total da compra
+
 total_da_compra = float(input())
 
-# se digitado = 1, sem desconto
-# se digitado = 2, 13% de desconto
-# se digitado = 3, 7% de desconto
-# se digitado != dos acima, ERRO
 
 if cliente == 1:
     print ('valor total a ser pago: R$ %.2f' % total_da_compra)

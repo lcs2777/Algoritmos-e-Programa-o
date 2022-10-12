@@ -1,3 +1,4 @@
+# Utilizando a estrutura while faça um programa para escrever a contagem regressiva do lançamento de um foguete.
 IniContagem = int(input())
 FinContagem = int(input())
 

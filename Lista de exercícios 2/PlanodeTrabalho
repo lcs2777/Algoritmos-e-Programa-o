@@ -1,3 +1,5 @@
+# Um funcionário irá receber um aumento de acordo com o seu plano de trabalho, de acordo com a tabela abaixo:
+# Faça um programa que leia o plano de trabalho e o salário atual de um funcionário e calcula e imprime o seu novo salário. Use o comando elif.
 tipoFuncionario = (input())
 salarioAtual = float(input())
 

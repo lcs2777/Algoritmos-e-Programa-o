@@ -1,3 +1,13 @@
+# Desenvolver um programa que receba o nome e a quantidade de horas extras trabalhadas por um funcionário, calcule e mostre o seu salário bruto e o salário líquido.
+# Valores conhecidos:
+# Salário mínimo = R$1192,40;
+# Valor da hora-extra = R$10,00.
+# Sabe-se que:
+# Salário hora-extra = horas-extras * Valor da hora-extra;
+# Salário bruto = 3 * Salário mínimo + Salário hora-extra;
+# Desconto INSS = 12% do salário bruto, se o salário bruto for maior que R$ 2000,00, ou 5% caso contrário;
+# Desconto do Imposto de Renda = 20% do salário bruto, se o salário bruto for maior que R$ 2500,00, 0% caso contrário;
+# Salário líquido = salário bruto – descontos
 nome = input()
 horasExtra = float(input())
 

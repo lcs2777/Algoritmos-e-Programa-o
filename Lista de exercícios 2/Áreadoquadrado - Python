@@ -1,3 +1,4 @@
+# Faça um programa que solicite ao usuário o lado de um quadrado (pode conter casas decimais), em seguida calcula e mostra a área (também pode conter casas decimais) deste quadro para o usuário.
 lado = float(input())
 bxh = lado**2
 print('A área do quadrado de lado %.2f'% lado , 'é igual a %.2f' % bxh)

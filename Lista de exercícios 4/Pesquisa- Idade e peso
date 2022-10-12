@@ -1,3 +1,12 @@
+# Utilizando estrutura de repetição , faça um programa em Python que receba a idade e o peso de quatro pessoas. Calcule e mostre:
+
+# a quantidade de pessoas com mais de 90 quilos;
+
+# a média das idade das quatro pessoas.
+
+# Dica 01: repita o processo enquanto a quantidade de pessoas cadastradas seja menor que 4;
+
+# Dica 02: as variáveis presentes no cálculo da média devem ser float, para que o resultado seja mostrado com casas decimais.
 somaIdade = 0
 pessoas90 = 0
 p = 0
